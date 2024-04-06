@@ -4,11 +4,78 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 23px;
     line-height: 20px;
     background-color: #fff;
     color: #272727;
 }
+
+.colortext{
+    color: orangered;
+}
+
+
+main {
+    align-items: center;
+    padding: 0 30px 100px;
+    display: inline-block;
+    font-size: 20px;
+    background: url(../img/leaf.png);
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+
+    
+}
+
+.centered-list1 {
+    display: table;
+    margin-left: 30%;
+    margin-right: 15%;
+    padding: 0;   
+    color: red; 
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.centered-list {
+    display: table;
+    margin-left: 20%;
+    margin-right: 15%;
+    padding: 0;   
+    color: red; 
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.centered-list-no-color-changed {
+    display: table;
+    margin-left: 20%;
+    margin-right: 15%;
+    padding: 0;   
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+.centered-img {
+    margin-left: 24%;
+}
+
+.main__p{
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 1.5;
+}
+
+.main__h{
+    margin-left: 35%;
+    margin-right: 20%;
+    line-height: 1.5;
+}
+
 
 h1, h2, p {
     margin: 0;
@@ -39,10 +106,6 @@ ul {
     gap: 30px;
     width: fit-content;
     text-align: right;
-}
-
-main {
-    padding: 0 30px 100px;
 }
 
 .main__title {
