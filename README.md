@@ -5,7 +5,6 @@
 3. Program will solve the problem will solve the problem by:
   * Representing the problem of global warming
   * Showing the impact of global warming on humans
-  * Allowing people play mini-games about global warming
   * Answering question about the global warming
 
 ## Project type:
